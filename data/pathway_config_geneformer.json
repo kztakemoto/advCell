@@ -1,0 +1,482 @@
+{
+  "pipeline": "advCell Step 1",
+  "census_version": "2025-11-08",
+  "max_cells_per_type": 2000,
+  "random_seed": 42,
+  "n_pathways": 18,
+  "pathways": [
+    {
+      "id": "P01",
+      "name": "Fib_Cardiomyocyte",
+      "h5ad_path": "data/subsets/P01_Fib_Cardiomyocyte.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "regular atrial cardiac myocyte"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 2000,
+      "total_n_cells": 4000,
+      "n_genes": 61497,
+      "tf_union": [
+        "ESRRG",
+        "GATA4",
+        "HAND2",
+        "MEF2C",
+        "MESP1",
+        "MYOCD",
+        "NKX2-5",
+        "SMARCD3",
+        "SRF",
+        "TBX5",
+        "ZFPM2",
+        "ZNF281"
+      ],
+      "tf_pool_size": 12,
+      "paper_source": "Song et al. (2012) Nature 485:599–604; Wada et al. (2013) Proc. Natl. Acad. Sci. U.S.A. 110:12667–12672; Zhou et al. (2016) Cell Stem Cell 18:382–395; Addis et al. (2013) J. Mol. Cell. Cardiol. 60:97–106; Singh et al. (2016) J. Am. Heart Assoc. 5:e003922; Muraoka et al. (2014) EMBO J. 33:1565–1581; Fu et al. (2013) Stem Cell Rep. 1:235–247; Protze et al. (2012) J. Mol. Cell. Cardiol. 53:323–332; Christoforou et al. (2013) PLoS One 8:e63577; Ieda et al. (2010) Cell 142:375–386; Nam et al. (2013) Proc. Natl. Acad. Sci. U.S.A. 110:5588–5593; Zhou et al. (2017) Genes Dev. 31:1770–1783",
+      "status": "evaluated",
+      "tokenized_path": "data/tokenized_v1/P01_Fib_Cardiomyocyte.dataset"
+    },
+    {
+      "id": "P02",
+      "name": "Fib_Hepatocyte",
+      "h5ad_path": "data/subsets/P02_Fib_Hepatocyte.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "hepatocyte"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 2000,
+      "total_n_cells": 4000,
+      "n_genes": 61497,
+      "tf_union": [
+        "ATF5",
+        "CEBPA",
+        "FOXA1",
+        "FOXA2",
+        "FOXA3",
+        "GATA3",
+        "GATA4",
+        "HNF1A",
+        "HNF1B",
+        "HNF4A",
+        "KDM2B",
+        "KLF4",
+        "MYC",
+        "NR1I2",
+        "ONECUT1",
+        "POU5F1",
+        "PROX1",
+        "SOX2"
+      ],
+      "tf_pool_size": 18,
+      "paper_source": "Sekiya and Suzuki (2011) Nature 475:390–393; Huang et al. (2011) Nature 475:386–389; Du et al. (2014) Cell Stem Cell 14:394–403; Chen et al. (2018) Biotechnol. Bioeng. 115:2807–2816; Park et al. (2019) Stem Cell Res Ther 10:21; Nakamori et al. (2017) Sci. Rep. 7:16675; Huang et al. (2014) Cell Stem Cell 14:370–384; Simeonov and Uppal (2014) PLoS One 9:e100134; Song et al. (2016) Cell Stem Cell 18:797–808; Pournasr et al. (2015) Eur. J. Cell Biol. 94:603–610; Lim et al. (2016) Cell Rep. 15:814–829; Zakikhan et al. (2016) Biochem. Biophys. Res. Commun. 474:97–103; Yu et al. (2013) Cell Stem Cell 13:328–340; Rezvani et al. (2016) Cell Stem Cell 18:809–816; Wu et al. (2017) Exp. Ther. Med. 13:2685–2690",
+      "status": "evaluated",
+      "tokenized_path": "data/tokenized_v1/P02_Fib_Hepatocyte.dataset",
+      "curation_note": "SOX2 is included because it is a factor of protocol C101 (Pournasr et al., 2015). The factor union is the set of factors of all protocols listed in protocols_by_pathway.json."
+    },
+    {
+      "id": "P03",
+      "name": "Bcell_Macrophage",
+      "h5ad_path": "data/subsets/P03_Bcell_Macrophage.h5ad",
+      "source_cell_types": [
+        "B cell"
+      ],
+      "target_cell_types": [
+        "macrophage"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 2000,
+      "total_n_cells": 4000,
+      "n_genes": 61497,
+      "tf_union": [
+        "CEBPA",
+        "CEBPB"
+      ],
+      "tf_pool_size": 2,
+      "paper_source": "Xie et al. (2004) Cell 117:663–676; Bussmann et al. (2009) Cell Stem Cell 5:554–566",
+      "status": "evaluated",
+      "tokenized_path": "data/tokenized_v1/P03_Bcell_Macrophage.dataset"
+    },
+    {
+      "id": "P04",
+      "name": "Fib_SkeletalMuscle",
+      "h5ad_path": "data/subsets/P04_Fib_SkeletalMuscle.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "skeletal muscle satellite stem cell"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 2000,
+      "total_n_cells": 4000,
+      "n_genes": 61497,
+      "tf_union": [
+        "MEF2B",
+        "MYCL",
+        "MYOD1",
+        "PAX3",
+        "PAX7",
+        "PITX1"
+      ],
+      "tf_pool_size": 6,
+      "paper_source": "Ito et al. (2017) Sci. Rep. 7:8097; Wakao et al. (2017) Biochem. Biophys. Res. Commun. 488:368–373; Davis et al. (1987) Cell 51:987–1000",
+      "status": "evaluated",
+      "tokenized_path": "data/tokenized_v1/P04_Fib_SkeletalMuscle.dataset"
+    },
+    {
+      "id": "P05",
+      "name": "Tcell_Macrophage",
+      "h5ad_path": "data/subsets/P05_Tcell_Macrophage.h5ad",
+      "source_cell_types": [
+        "CD4-positive, alpha-beta T cell",
+        "CD8-positive, alpha-beta T cell"
+      ],
+      "target_cell_types": [
+        "macrophage"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 2000,
+      "total_n_cells": 4000,
+      "n_genes": 61497,
+      "tf_union": [
+        "CEBPA",
+        "CEBPB"
+      ],
+      "tf_pool_size": 2,
+      "paper_source": "Laiosa et al. (2006) Immunity 25:731–744",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P05_Tcell_Macrophage.dataset",
+      "curation_note": "The starting cells in the original study are committed pre-T progenitors."
+    },
+    {
+      "id": "P06",
+      "name": "Fib_Endothelial",
+      "h5ad_path": "data/subsets/P06_Fib_Endothelial.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "endothelial cell"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 2000,
+      "total_n_cells": 4000,
+      "n_genes": 61497,
+      "tf_union": [
+        "ETV2"
+      ],
+      "tf_pool_size": 1,
+      "paper_source": "Morita et al. (2015) Proc. Natl. Acad. Sci. U.S.A. 112:160–165; Lee et al. (2017) Circ. Res. 120:848–861",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P06_Fib_Endothelial.dataset",
+      "curation_note": "Only the conversion of fibroblasts to endothelial cells by ETV2 alone is included. The ERG/FLI1/ETV2 protocol of Ginsberg et al. (2012) targets amniotic cells and is not included."
+    },
+    {
+      "id": "P07",
+      "name": "Fib_SmoothMuscle",
+      "h5ad_path": "data/subsets/P07_Fib_SmoothMuscle.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "smooth muscle cell"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 2000,
+      "total_n_cells": 4000,
+      "n_genes": 61497,
+      "tf_union": [
+        "MYOCD"
+      ],
+      "tf_pool_size": 1,
+      "paper_source": "Wang et al. (2003) Proc. Natl. Acad. Sci. U.S.A. 100:7129–7134",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P07_Fib_SmoothMuscle.dataset",
+      "curation_note": "The factor set is MYOCD alone."
+    },
+    {
+      "id": "P08",
+      "name": "Fib_DendriticCell",
+      "h5ad_path": "data/subsets/P08_Fib_DendriticCell.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "myeloid dendritic cell"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 153,
+      "total_n_cells": 2153,
+      "n_genes": 61497,
+      "tf_union": [
+        "BATF3",
+        "IRF8",
+        "SPI1"
+      ],
+      "tf_pool_size": 3,
+      "paper_source": "Rosa et al. (2018) Sci. Immunol. 3:eaau4292",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P08_Fib_DendriticCell.dataset"
+    },
+    {
+      "id": "P09",
+      "name": "Fib_ErythroidProg",
+      "h5ad_path": "data/subsets/P09_Fib_ErythroidProg.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "erythroid progenitor cell"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 2000,
+      "total_n_cells": 4000,
+      "n_genes": 61497,
+      "tf_union": [
+        "GATA1",
+        "LMO2",
+        "MYC",
+        "TAL1"
+      ],
+      "tf_pool_size": 4,
+      "paper_source": "Capellera-Garcia et al. (2016) Cell Rep. 15:2550–2562",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P09_Fib_ErythroidProg.dataset"
+    },
+    {
+      "id": "P10",
+      "name": "Fib_HSC",
+      "h5ad_path": "data/subsets/P10_Fib_HSC.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "hematopoietic stem cell"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 2000,
+      "total_n_cells": 4000,
+      "n_genes": 61497,
+      "tf_union": [
+        "ERG",
+        "GATA2",
+        "LMO2",
+        "RUNX1",
+        "TAL1"
+      ],
+      "tf_pool_size": 5,
+      "paper_source": "Batta et al. (2014) Cell Rep. 9:1871–1884",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P10_Fib_HSC.dataset"
+    },
+    {
+      "id": "P11",
+      "name": "Fib_Enterocyte",
+      "h5ad_path": "data/subsets/P11_Fib_Enterocyte.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "enterocyte of epithelium proper of duodenum"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 2000,
+      "total_n_cells": 4000,
+      "n_genes": 61497,
+      "tf_union": [
+        "CDX2",
+        "FOXA3",
+        "GATA6",
+        "HNF4A"
+      ],
+      "tf_pool_size": 4,
+      "paper_source": "Miura and Suzuki (2017) Cell Stem Cell 21:456–471",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P11_Fib_Enterocyte.dataset",
+      "curation_note": "The factor set is the four factors Hnf4a, Foxa3, Gata6 and Cdx2 of Miura and Suzuki (2017)."
+    },
+    {
+      "id": "P12",
+      "name": "Fib_BetaCell",
+      "h5ad_path": "data/subsets/P12_Fib_BetaCell.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "type B pancreatic cell"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 306,
+      "total_n_cells": 2306,
+      "n_genes": 61497,
+      "tf_union": [
+        "MAFA",
+        "NEUROG3",
+        "NKX2-2",
+        "PAX4",
+        "PDX1"
+      ],
+      "tf_pool_size": 5,
+      "paper_source": "Fontcuberta-PiSunyer et al. (2023) Commun. Biol. 6:256",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P12_Fib_BetaCell.dataset"
+    },
+    {
+      "id": "P13",
+      "name": "Hepatocyte_BetaCell",
+      "h5ad_path": "data/subsets/P13_Hepatocyte_BetaCell.h5ad",
+      "source_cell_types": [
+        "hepatocyte"
+      ],
+      "target_cell_types": [
+        "type B pancreatic cell"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 306,
+      "total_n_cells": 2306,
+      "n_genes": 61497,
+      "tf_union": [
+        "MAFA",
+        "MAFB",
+        "NEUROD1",
+        "NEUROG3",
+        "PAX4",
+        "PDX1",
+        "TGIF2"
+      ],
+      "tf_pool_size": 7,
+      "paper_source": "Wang et al. (2007) Mol. Ther. 15:255–263; Nagasaki et al. (2014) PLoS One 9:e113022; Meivar-Levy et al. (2011) J. Transplant. 2011:252387; Ferber et al. (2000) Nat. Med. 6:568–572; Ber et al. (2003) J. Biol. Chem. 278:31950–31957; Berneman-Zeitouni et al. (2014) PLoS One 9:e87812; Cerdá-Esteban et al. (2017) Nat. Commun. 8:14127; Lu et al. (2014) Biochem. Biophys. Res. Commun. 453:405–410",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P13_Hepatocyte_BetaCell.dataset"
+    },
+    {
+      "id": "P14",
+      "name": "Exocrine_BetaCell",
+      "h5ad_path": "data/subsets/P14_Exocrine_BetaCell.h5ad",
+      "source_cell_types": [
+        "pancreatic acinar cell"
+      ],
+      "target_cell_types": [
+        "type B pancreatic cell"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 306,
+      "total_n_cells": 2306,
+      "n_genes": 61497,
+      "tf_union": [
+        "MAFA",
+        "NEUROG3",
+        "PDX1"
+      ],
+      "tf_pool_size": 3,
+      "paper_source": "Zhou et al. (2008) Nature 455:627–632",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P14_Exocrine_BetaCell.dataset"
+    },
+    {
+      "id": "P15",
+      "name": "Fib_Melanocyte",
+      "h5ad_path": "data/subsets/P15_Fib_Melanocyte.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "melanocyte"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 306,
+      "total_n_cells": 2306,
+      "n_genes": 61497,
+      "tf_union": [
+        "MITF",
+        "PAX3",
+        "SOX10"
+      ],
+      "tf_pool_size": 3,
+      "paper_source": "Yang et al. (2014) Nat. Commun. 5:5807",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P15_Fib_Melanocyte.dataset"
+    },
+    {
+      "id": "P16",
+      "name": "Fib_SchwannCell",
+      "h5ad_path": "data/subsets/P16_Fib_SchwannCell.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "Schwann cell"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 144,
+      "total_n_cells": 2144,
+      "n_genes": 61497,
+      "tf_union": [
+        "EGR2",
+        "SOX10"
+      ],
+      "tf_pool_size": 2,
+      "paper_source": "Mazzara et al. (2017) Nat. Commun. 8:14088",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P16_Fib_SchwannCell.dataset",
+      "curation_note": "The factor set is the two factors Sox10 and Egr2 of Mazzara et al. (2017). POU3F1 did not increase the yield in that study and is not included."
+    },
+    {
+      "id": "P17",
+      "name": "Fib_RenalEpithelial",
+      "h5ad_path": "data/subsets/P17_Fib_RenalEpithelial.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "kidney epithelial cell"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 2000,
+      "total_n_cells": 4000,
+      "n_genes": 61497,
+      "tf_union": [
+        "EMX2",
+        "HNF1B",
+        "HNF4A",
+        "PAX8"
+      ],
+      "tf_pool_size": 4,
+      "paper_source": "Kaminski et al. (2016) Nat. Cell Biol. 18:1269–1280",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P17_Fib_RenalEpithelial.dataset"
+    },
+    {
+      "id": "P18",
+      "name": "Fib_AT2",
+      "h5ad_path": "data/subsets/P18_Fib_AT2.h5ad",
+      "source_cell_types": [
+        "fibroblast"
+      ],
+      "target_cell_types": [
+        "pulmonary alveolar type 2 cell"
+      ],
+      "source_n_cells": 2000,
+      "target_n_cells": 2000,
+      "total_n_cells": 4000,
+      "n_genes": 61497,
+      "tf_union": [
+        "FOXA1",
+        "FOXA2",
+        "GATA6",
+        "NKX2-1"
+      ],
+      "tf_pool_size": 4,
+      "paper_source": "Morita et al. (2025) npj Regen. Med. 10:30",
+      "status": "new",
+      "tokenized_path": "data/tokenized_v1/P18_Fib_AT2.dataset",
+      "curation_note": "The factor set is the four factors Nkx2-1, Foxa1, Foxa2 and Gata6 of Morita et al. (2025)."
+    }
+  ],
+  "geneformer_model_version": "V1"
+}

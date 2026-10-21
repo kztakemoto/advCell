@@ -1,0 +1,52 @@
+% The correspondence figure (panels a and b).
+% Both panels are emitted by the same macro, so their geometry is identical by
+% construction rather than by hand-matching. Only the six label arguments differ.
+%
+% \cpanel{x offset}{panel letter}{panel title}{group label 1}{group label 2}
+%        {model}{objective title}{objective subtitle}{gradient subtitle}
+
+\newcommand{\cpanel}[9]{%
+  \begin{scope}[shift={(#1,0)}]
+    \node[anchor=west, font=\bfseries\small] at (0,7.9) {#2};
+    \node[anchor=west, font=\small] at (0.45,7.9) {#3};
+    \foreach \i in {0,1,2}{
+      \node[tokfixed] at (\i*1.05+0.6,7.1) {};}
+    \foreach \i in {3,4}{
+      \node[tokvar] at (\i*1.05+0.6,7.1) {};}
+    \node[font=\scriptsize, anchor=north] at (1.65,6.62) {#4};
+    \node[font=\scriptsize, anchor=north] at (4.28,6.62) {#5};
+    \node[fixedbox] (mod) at (2.65,5.55) {#6};
+    \node[varbox]  (obj) at (2.65,4.15) {\shortstack{#7\\[1pt]\scriptsize #8}};
+    \node[varbox]  (grd) at (2.65,2.75) {\shortstack{Gradient\\[1pt]\scriptsize #9}};
+    \node[varbox]  (cnd) at (2.65,1.35) {\shortstack{Candidate batch\\[1pt]\scriptsize top rows of the table}};
+    \draw[flow] (2.65,6.75) -- (mod);
+    \draw[flow] (mod) -- (obj);
+    \draw[flow] (obj) -- (grd);
+    \draw[flow] (grd) -- (cnd);
+    \draw[flow] (cnd.east) -- (5.65,1.35) -- (5.65,7.1) -- (5.32,7.1);
+  \end{scope}}
+
+\begin{tikzpicture}[
+  tokfixed/.style={draw=black!55, fill=black!6, line width=0.4pt,
+                   minimum width=0.9cm, minimum height=0.55cm, rounded corners=1.5pt},
+  tokvar/.style={draw=black!75, fill=black!22, line width=0.4pt,
+                 minimum width=0.9cm, minimum height=0.55cm, rounded corners=1.5pt},
+  fixedbox/.style={draw=black!55, fill=black!6, line width=0.4pt,
+                   minimum width=3.5cm, minimum height=0.85cm, rounded corners=2.5pt,
+                   align=center, font=\small},
+  varbox/.style={draw=black!75, fill=black!14, line width=0.4pt,
+                 minimum width=3.5cm, minimum height=1.05cm, rounded corners=2.5pt,
+                 align=center, font=\small},
+  flow/.style={-{Latex[length=1.6mm,width=1.4mm]}, line width=0.4pt, black!70}]
+
+  \cpanel{0}{a}{Adversarial attack}%
+    {prompt tokens}{adversarial suffix}%
+    {Language model}{Attack objective}{target logits}{w.r.t.\ token one-hot}
+
+  \draw[black!30, dashed, line width=0.3pt] (6.05,0.6) -- (6.05,8.2);
+
+  \cpanel{6.6}{b}{In silico perturbation}%
+    {gene tokens}{perturbed genes}%
+    {Single-cell model}{Similarity objective}{cosine to target cell}{w.r.t.\ gene one-hot}
+
+\end{tikzpicture}

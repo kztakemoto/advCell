@@ -1,0 +1,994 @@
+{
+ "P01": {
+  "name": "Fib_Cardiomyocyte",
+  "tf_union": [
+   "ESRRG",
+   "GATA4",
+   "HAND2",
+   "MEF2C",
+   "MESP1",
+   "MYOCD",
+   "NKX2-5",
+   "SMARCD3",
+   "SRF",
+   "TBX5",
+   "ZFPM2",
+   "ZNF281"
+  ],
+  "n_protocols": 13,
+  "protocols": [
+   {
+    "id": "C002",
+    "source": "Cardiac fibroblast",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "GATA4",
+     "MEF2C",
+     "TBX5",
+     "HAND2"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Song K, Nam YJ, Luo X, Qi X, Tan W, Huang GN, et al. Heart repair by reprogramming non-myocytes with cardiac transcription factors. Nature. 2012;485(7400):599–604."
+   },
+   {
+    "id": "C004",
+    "source": "Cardiac fibroblast",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "GATA4",
+     "MEF2C",
+     "TBX5",
+     "MESP1",
+     "MYOCD"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Wada R, Muraoka N, Inagawa K, Yamakawa H, Miyamoto K, Sadahiro T, et al. Induction of human cardiomyocyte-like cells from fibroblasts by defined factors. Proc. Natl. Acad. Sci. U.S.A. 2013;110:12667–12672."
+   },
+   {
+    "id": "C006",
+    "source": "Cardiac fibroblast",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "MEF2C",
+     "TBX5"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Zhou Y, Wang L, Vaseghi HR, Liu Z, Lu R, Alimohamadi S, et al. Bmi1 is a key epigenetic barrier to direct cardiac reprogramming. Cell Stem Cell. 2016;18:382–395."
+   },
+   {
+    "id": "C008",
+    "source": "Cardiac fibroblast",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "GATA4",
+     "MEF2C",
+     "TBX5",
+     "HAND2",
+     "NKX2-5"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Addis RC, Ifkovits JL, Pinto F, et al. Optimization of direct fibroblast reprogramming to cardiomyocytes using calcium activity as a functional measure of success. J. Mol. Cell. Cardiol. 2013;60:97–106."
+   },
+   {
+    "id": "C015",
+    "source": "Cardiac fibroblast",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "GATA4",
+     "MEF2C",
+     "TBX5"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Singh VP, Mathison M, Patel V, Sanagasetti D, Gibson BW, Yang J, et al. MiR-590 promotes transdifferentiation of porcine and human fibroblasts toward a cardiomyocyte-like fate by directly repressing specificity protein 1. J. Am. Heart Assoc. 2016;5(11):e003922."
+   },
+   {
+    "id": "C013",
+    "source": "Cardiac/embryonic fibroblast",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "GATA4",
+     "MEF2C",
+     "TBX5"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Muraoka N, Yamakawa H, Miyamoto K, Sadahiro T, Umei T, Isomi M, et al. MiR-133 promotes cardiac reprogramming by directly repressing Snai1 and silencing fibroblast signatures. EMBO J. 2014;33(14):1565–1581."
+   },
+   {
+    "id": "C014",
+    "source": "Cardiac/embryonic fibroblast",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "GATA4",
+     "MEF2C",
+     "TBX5",
+     "MESP1",
+     "MYOCD"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Muraoka N, Yamakawa H, Miyamoto K, Sadahiro T, Umei T, Isomi M, et al. MiR-133 promotes cardiac reprogramming by directly repressing Snai1 and silencing fibroblast signatures. EMBO J. 2014;33(14):1565–1581."
+   },
+   {
+    "id": "C005",
+    "source": "Dermal fibroblast",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "GATA4",
+     "MEF2C",
+     "TBX5",
+     "ESRRG",
+     "MESP1",
+     "ZFPM2",
+     "MYOCD"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Fu JD, Stone NR, Liu L, Spencer CI, Qian L, Hayashi Y, et al. Direct reprogramming of human fibroblasts toward a cardiomyocyte-like state. Stem Cell Rep. 2013;1:235–247."
+   },
+   {
+    "id": "C003",
+    "source": "Embryonic fibroblast",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "MEF2C",
+     "TBX5",
+     "MYOCD",
+     "GATA4"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Protze S, Khattak S, Poulet C, Lindemann D, Tanaka EM, Ravens U. A new approach to transcription factor screening for reprogramming of fibroblasts to cardiomyocyte-like cells. J. Mol. Cell. Cardiol. 2012;53:323–332."
+   },
+   {
+    "id": "C009",
+    "source": "Embryonic fibroblast",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "GATA4",
+     "MEF2C",
+     "TBX5",
+     "MYOCD",
+     "SRF",
+     "MESP1",
+     "SMARCD3"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Christoforou N, Chellappan M, Adler AF, et al. Transcription factors MYOCD, SRF, Mesp1 and SMARCD3 enhance the cardio-inducing effect of GATA4, TBX5, and MEF2C during direct cellular reprogramming. PLoS One. 2013;8(5):e63577."
+   },
+   {
+    "id": "C001",
+    "source": "Fibroblast (skin/cardiac)",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "GATA4",
+     "MEF2C",
+     "TBX5"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Ieda M, Fu JD, Delgado-Olguin P, Vedantham V, Hayashi Y, Bruneau BG, et al. Direct reprogramming of fibroblasts into functional cardiomyocytes by defined factors. Cell. 2010;142(3):375–386."
+   },
+   {
+    "id": "C011",
+    "source": "Neonatal foreskin/adult cardiac fibroblast",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "GATA4",
+     "HAND2",
+     "TBX5",
+     "MYOCD"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Nam YJ, Song K, Luo X, Daniel E, Lambeth K, West K, et al. Reprogramming of human fibroblasts toward a cardiac fate. Proc. Natl. Acad. Sci. U.S.A. 2013;110(14):5588–5593."
+   },
+   {
+    "id": "C007",
+    "source": "Tail-tip fibroblast",
+    "target": "Cardiomyocyte",
+    "factors": [
+     "GATA4",
+     "HAND2",
+     "MEF2C",
+     "TBX5",
+     "ZNF281"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Zhou H, Morales MG, Hashimoto H, Dickson ME, Song K, Ye W, et al. ZNF281 enhances cardiac reprogramming by modulating cardiac and inflammatory gene expression. Genes Dev. 2017;31:1770–1783."
+   }
+  ]
+ },
+ "P02": {
+  "name": "Fib_Hepatocyte",
+  "tf_union": [
+   "ATF5",
+   "CEBPA",
+   "FOXA1",
+   "FOXA2",
+   "FOXA3",
+   "GATA3",
+   "GATA4",
+   "HNF1A",
+   "HNF1B",
+   "HNF4A",
+   "KDM2B",
+   "KLF4",
+   "MYC",
+   "NR1I2",
+   "ONECUT1",
+   "POU5F1",
+   "PROX1",
+   "SOX2"
+  ],
+  "n_protocols": 20,
+  "protocols": [
+   {
+    "id": "C087",
+    "source": "Caudal fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "HNF4A",
+     "FOXA2"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Sekiya S, Suzuki A. Direct conversion of mouse fibroblasts to hepatocyte-like cells by defined factors. Nature. 2011;475(7356):390–393."
+   },
+   {
+    "id": "C088",
+    "source": "Embryonic fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "HNF4A",
+     "FOXA3"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Sekiya S, Suzuki A. Direct conversion of mouse fibroblasts to hepatocyte-like cells by defined factors. Nature. 2011;475(7356):390–393."
+   },
+   {
+    "id": "C089",
+    "source": "Embryonic fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "GATA4",
+     "HNF1A",
+     "FOXA3"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Huang P, He Z, Ji S, Sun H, Xiang D, Liu C, et al. Induction of functional hepatocyte-like cells from mouse fibroblasts by defined factors. Nature. 2011;475(7356):386–389."
+   },
+   {
+    "id": "C090",
+    "source": "Embryonic fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "HNF1A",
+     "HNF4A",
+     "ONECUT1",
+     "ATF5",
+     "PROX1",
+     "CEBPA"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Du Y, Wang J, Jia J, Song N, Xiang C, Xu J, et al. Human hepatocytes with drug metabolic function induced from fibroblasts by lineage reprogramming. Cell Stem Cell. 2014;14:394–403."
+   },
+   {
+    "id": "C098",
+    "source": "Embryonic fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "FOXA3",
+     "HNF1A",
+     "GATA4"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Chen C, Pla-Palacín I, Baptista PM, Shang P, Oosterhoff LA, van Wolferen ME, et al. Hepatocyte-like cells generated by direct reprogramming from murine somatic cells can repopulate decellularized livers. Biotechnol. Bioeng. 2018;115:2807–2816."
+   },
+   {
+    "id": "C099",
+    "source": "Embryonic fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "HNF4A",
+     "FOXA3",
+     "KLF4",
+     "MYC"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Park S, Hwang SI, Kim J, Hwang S, Kang S, Yang S, et al. The therapeutic potential of induced hepatocyte-like cells generated by direct reprogramming on hepatic fibrosis. Stem Cell Res Ther. 2019;10(1):21."
+   },
+   {
+    "id": "C086",
+    "source": "Embryonic/adult dermal fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "HNF4A",
+     "FOXA1"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Sekiya S, Suzuki A. Direct conversion of mouse fibroblasts to hepatocyte-like cells by defined factors. Nature. 2011;475(7356):390–393."
+   },
+   {
+    "id": "C096",
+    "source": "Fetal lung fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "ATF5",
+     "PROX1",
+     "FOXA2",
+     "FOXA3",
+     "HNF4A"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Nakamori D, Akamine H, Takayama K, Sakurai F, Mizuguchi H. Direct conversion of human fibroblasts into hepatocyte-like cells by ATF5, PROX1, FOXA2, FOXA3, and HNF4A transduction. Sci. Rep. 2017;7(1):16675."
+   },
+   {
+    "id": "C091",
+    "source": "Fetal/adult fibroblast & MSC",
+    "target": "Hepatocyte",
+    "factors": [
+     "FOXA3",
+     "HNF1A",
+     "HNF4A"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Huang P, Zhang L, Gao Y, He Z, Yao D, Wu Z, et al. Direct reprogramming of human fibroblasts to functional and expandable hepatocytes. Cell Stem Cell. 2014;14:370–384."
+   },
+   {
+    "id": "C092",
+    "source": "Fibroblast (BJ/MRC-5)",
+    "target": "Hepatocyte",
+    "factors": [
+     "HNF1A",
+     "FOXA1",
+     "FOXA3"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Simeonov KP, Uppal H. Direct reprogramming of human fibroblasts to hepatocyte-like cells by synthetic modified mRNAs. PLoS One. 2014;9(6):e100134."
+   },
+   {
+    "id": "C093",
+    "source": "Fibroblast (BJ/MRC-5)",
+    "target": "Hepatocyte",
+    "factors": [
+     "HNF1A",
+     "FOXA3",
+     "HNF4A"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Simeonov KP, Uppal H. Direct reprogramming of human fibroblasts to hepatocyte-like cells by synthetic modified mRNAs. PLoS One. 2014;9(6):e100134."
+   },
+   {
+    "id": "C094",
+    "source": "Fibroblast (BJ/MRC-5)",
+    "target": "Hepatocyte",
+    "factors": [
+     "HNF1A",
+     "HNF4A",
+     "FOXA1"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Simeonov KP, Uppal H. Direct reprogramming of human fibroblasts to hepatocyte-like cells by synthetic modified mRNAs. PLoS One. 2014;9(6):e100134."
+   },
+   {
+    "id": "C095",
+    "source": "Hepatic myofibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "FOXA3",
+     "GATA4",
+     "HNF1A",
+     "HNF4A"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Song G, Pacher M, Balakrishnan A, Yuan Q, Tsay HC, Yang D, et al. Direct reprogramming of hepatic myofibroblasts into hepatocytes in vivo attenuates liver fibrosis. Cell Stem Cell. 2016;18:797–808."
+   },
+   {
+    "id": "C101",
+    "source": "Mouse embryonic fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "POU5F1",
+     "SOX2",
+     "KLF4",
+     "MYC",
+     "HNF4A",
+     "CEBPA",
+     "NR1I2"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Pournasr B, Asghari-Vostikolaee MH, Baharvand H. Transcription factor-mediated reprograming of fibroblasts to hepatocyte-like cells. Eur. J. Cell Biol. 2015;94(12):603–610."
+   },
+   {
+    "id": "C102",
+    "source": "Mouse embryonic fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "MYC",
+     "KLF4",
+     "HNF4A",
+     "FOXA1"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Lim KT, Lee SC, Gao Y, Kim KP, Song G, An SY, et al. Small molecules facilitate single factor-mediated hepatic reprogramming. Cell Rep. 2016;15(4):814–829."
+   },
+   {
+    "id": "C103",
+    "source": "Mouse embryonic fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "MYC",
+     "KLF4",
+     "HNF4A",
+     "FOXA3"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Lim KT, Lee SC, Gao Y, Kim KP, Song G, An SY, et al. Small molecules facilitate single factor-mediated hepatic reprogramming. Cell Rep. 2016;15(4):814–829."
+   },
+   {
+    "id": "C104",
+    "source": "Mouse embryonic fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "HNF4A",
+     "FOXA3",
+     "KDM2B"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Zakikhan K, Pournasr B, Nassiri-Asl M, Baharvand H. Enhanced direct conversion of fibroblasts into hepatocyte-like cells by Kdm2b. Biochem. Biophys. Res. Commun. 2016;474(1):97–103."
+   },
+   {
+    "id": "C100",
+    "source": "Mouse embryonic/adult fibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "HNF1B",
+     "FOXA3"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Yu B, He ZY, You P, Han QW, Xiang D, Chen F, et al. Reprogramming fibroblasts into bipotential hepatic stem cells by defined factors. Cell Stem Cell. 2013;13(3):328–340."
+   },
+   {
+    "id": "C105",
+    "source": "Myofibroblast",
+    "target": "Hepatocyte",
+    "factors": [
+     "FOXA1",
+     "FOXA2",
+     "FOXA3",
+     "GATA4",
+     "HNF1A",
+     "HNF4A"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Rezvani M, Español-Suñer R, Malato Y, Dumont L, Grimm AA, Kienle E, et al. In vivo hepatic reprogramming of myofibroblasts with AAV vectors as a therapeutic strategy for liver fibrosis. Cell Stem Cell. 2016;18(6):809–816."
+   },
+   {
+    "id": "C097",
+    "source": "fibroblasts",
+    "target": "Hepatocyte",
+    "factors": [
+     "POU5F1",
+     "FOXA2",
+     "HNF1A",
+     "GATA3"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Wu W, Jin YQ, Gao Z. Directly reprogramming fibroblasts into adipogenic, neurogenic and hepatogenic differentiation lineages by defined factors. Exp. Ther. Med. 2017;13:2685–2690."
+   }
+  ]
+ },
+ "P03": {
+  "name": "Bcell_Macrophage",
+  "tf_union": [
+   "CEBPA",
+   "CEBPB"
+  ],
+  "n_protocols": 2,
+  "protocols": [
+   {
+    "id": "L141",
+    "source": "B cell",
+    "target": "Macrophage",
+    "factors": [
+     "CEBPA",
+     "CEBPB"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Xie H, Ye M, Feng R, Graf T. Stepwise reprogramming of B cells into macrophages. Cell. 2004;117(5):663–676. Bussmann LH, Schubert A, Vu Manh TP, De Andres L, Desbordes SC, Parra M, et al. A robust and highly efficient immune cell reprogramming system. Cell Stem Cell. 2009;5(5):554–566."
+   },
+   {
+    "id": "L143",
+    "source": "pre-B cell",
+    "target": "Macrophage",
+    "factors": [
+     "CEBPA"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Bussmann LH, Schubert A, Vu Manh TP, De Andres L, Desbordes SC, Parra M, et al. A robust and highly efficient immune cell reprogramming system. Cell Stem Cell. 2009;5(5):554–566."
+   }
+  ]
+ },
+ "P04": {
+  "name": "Fib_SkeletalMuscle",
+  "tf_union": [
+   "MEF2B",
+   "MYCL",
+   "MYOD1",
+   "PAX3",
+   "PAX7",
+   "PITX1"
+  ],
+  "n_protocols": 5,
+  "protocols": [
+   {
+    "id": "C124",
+    "source": "Adult fibroblast",
+    "target": "Skeletal muscle progenitor",
+    "factors": [
+     "MEF2B",
+     "PITX1",
+     "PAX3"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Ito N, Kii I, Shimizu N, Tanaka H, Takeda S. Direct reprogramming of fibroblasts into skeletal muscle progenitor cells by transcription factors enriched in undifferentiated subpopulation of satellite cells. Sci. Rep. 2017;7(1):8097."
+   },
+   {
+    "id": "C125",
+    "source": "Adult fibroblast",
+    "target": "Skeletal muscle progenitor",
+    "factors": [
+     "MEF2B",
+     "PITX1",
+     "PAX7"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Ito N, Kii I, Shimizu N, Tanaka H, Takeda S. Direct reprogramming of fibroblasts into skeletal muscle progenitor cells by transcription factors enriched in undifferentiated subpopulation of satellite cells. Sci. Rep. 2017;7(1):8097."
+   },
+   {
+    "id": "C126",
+    "source": "Dermal fibroblast",
+    "target": "Skeletal muscle progenitor",
+    "factors": [
+     "PAX7",
+     "MEF2B",
+     "MYOD1"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Ito N, Kii I, Shimizu N, Tanaka H, Takeda S. Direct reprogramming of fibroblasts into skeletal muscle progenitor cells by transcription factors enriched in undifferentiated subpopulation of satellite cells. Sci. Rep. 2017;7(1):8097."
+   },
+   {
+    "id": "C123",
+    "source": "Embryonic fibroblast",
+    "target": "Myoblast",
+    "factors": [
+     "MYOD1",
+     "MYCL"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Wakao J, Kishida T, Fumino S, Kimura K, Yamamoto K, Kotani S, et al. Efficient direct conversion of human fibroblasts into myogenic lineage induced by co-transduction with MYCL and MYOD1. Biochem. Biophys. Res. Commun. 2017;488:368–373."
+   },
+   {
+    "id": "C122",
+    "source": "Fibroblast (C3H10T1/2)",
+    "target": "Myoblast",
+    "factors": [
+     "MYOD1"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Davis RL, Weintraub H, Lassar AB. Expression of a single transfected cDNA converts fibroblasts to myoblasts. Cell. 1987;51:987–1000."
+   }
+  ]
+ },
+ "P05": {
+  "name": "Tcell_Macrophage",
+  "tf_union": [
+   "CEBPA",
+   "CEBPB"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "L142",
+    "source": "T cell",
+    "target": "Macrophage",
+    "factors": [
+     "CEBPA",
+     "CEBPB"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Laiosa CV, Stadtfeld M, Xie H, de Andres-Aguayo L, Graf T. Reprogramming of committed T cell progenitors to macrophages and dendritic cells by C/EBPα and PU.1 transcription factors. Immunity. 2006;25(5):731–744."
+   }
+  ]
+ },
+ "P06": {
+  "name": "Fib_Endothelial",
+  "tf_union": [
+   "ETV2"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "L148",
+    "source": "Fibroblast",
+    "target": "Endothelial cell",
+    "factors": [
+     "ETV2"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Morita R, Suzuki M, Kasahara H, Shimizu N, Shichita T, Sekiya T, et al. ETS transcription factor ETV2 directly converts human fibroblasts into functional endothelial cells. Proc. Natl. Acad. Sci. U.S.A. 2015;112(1):160–165. Lee S, Park C, Han JW, Kim JY, Cho K, Kim EJ, et al. Direct reprogramming of human dermal fibroblasts into endothelial cells using ER71/ETV2. Circ. Res. 2017;120(5):848–861."
+   }
+  ]
+ },
+ "P07": {
+  "name": "Fib_SmoothMuscle",
+  "tf_union": [
+   "MYOCD"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "L150",
+    "source": "Fibroblast",
+    "target": "Smooth muscle cell",
+    "factors": [
+     "MYOCD"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Wang Z, Wang DZ, Pipes GT, Olson EN. Myocardin is a master regulator of smooth muscle gene expression. Proc. Natl. Acad. Sci. U.S.A. 2003;100(12):7129–7134."
+   }
+  ]
+ },
+ "P08": {
+  "name": "Fib_DendriticCell",
+  "tf_union": [
+   "BATF3",
+   "IRF8",
+   "SPI1"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "L147",
+    "source": "Fibroblast",
+    "target": "Dendritic cell (cDC1)",
+    "factors": [
+     "SPI1",
+     "IRF8",
+     "BATF3"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Rosa FF, Pires CF, Kurochkin I, Ferreira AG, Gomes AM, Palma LG, et al. Direct reprogramming of fibroblasts into antigen-presenting dendritic cells. Sci. Immunol. 2018;3(30):eaau4292."
+   }
+  ]
+ },
+ "P09": {
+  "name": "Fib_ErythroidProg",
+  "tf_union": [
+   "GATA1",
+   "LMO2",
+   "MYC",
+   "TAL1"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "L145",
+    "source": "Fibroblast",
+    "target": "Erythroid progenitor",
+    "factors": [
+     "GATA1",
+     "TAL1",
+     "LMO2",
+     "MYC"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Capellera-Garcia S, Pulecio J, Dhulipala K, Siva K, Rayon-Estrada V, Singbrant S, et al. Defining the minimal factors required for erythropoiesis through direct lineage conversion. Cell Rep. 2016;15(11):2550–2562."
+   }
+  ]
+ },
+ "P10": {
+  "name": "Fib_HSC",
+  "tf_union": [
+   "ERG",
+   "GATA2",
+   "LMO2",
+   "RUNX1",
+   "TAL1"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "L146",
+    "source": "Fibroblast",
+    "target": "Hematopoietic progenitor",
+    "factors": [
+     "ERG",
+     "GATA2",
+     "LMO2",
+     "RUNX1",
+     "TAL1"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Batta K, Florkowska M, Kouskoff V, Lacaud G. Direct reprogramming of murine fibroblasts to hematopoietic progenitor cells. Cell Rep. 2014;9(5):1871–1884."
+   }
+  ]
+ },
+ "P11": {
+  "name": "Fib_Enterocyte",
+  "tf_union": [
+   "CDX2",
+   "FOXA3",
+   "GATA6",
+   "HNF4A"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "L158",
+    "source": "Fibroblast",
+    "target": "Intestinal epithelial cell",
+    "factors": [
+     "HNF4A",
+     "FOXA3",
+     "GATA6",
+     "CDX2"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Miura S, Suzuki A. Generation of mouse and human organoid-forming intestinal progenitor cells by direct lineage reprogramming. Cell Stem Cell. 2017;21(4):456–471."
+   }
+  ]
+ },
+ "P12": {
+  "name": "Fib_BetaCell",
+  "tf_union": [
+   "MAFA",
+   "NEUROG3",
+   "NKX2-2",
+   "PAX4",
+   "PDX1"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "C119",
+    "source": "Fibroblast",
+    "target": "β cell",
+    "factors": [
+     "NEUROG3",
+     "PDX1",
+     "MAFA",
+     "PAX4",
+     "NKX2-2"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Fontcuberta-PiSunyer M, García-Alamán A, Prades È, Téllez N, Alves-Figueiredo H, Ramos-Rodríguez M, et al. Direct reprogramming of human fibroblasts into insulin-producing cells using transcription factors. Commun. Biol. 2023;6(1):256."
+   }
+  ]
+ },
+ "P13": {
+  "name": "Hepatocyte_BetaCell",
+  "tf_union": [
+   "MAFA",
+   "MAFB",
+   "NEUROD1",
+   "NEUROG3",
+   "PAX4",
+   "PDX1",
+   "TGIF2"
+  ],
+  "n_protocols": 9,
+  "protocols": [
+   {
+    "id": "C113",
+    "source": "Adult liver cell",
+    "target": "β cell",
+    "factors": [
+     "PDX1",
+     "NEUROG3"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Wang AY, Ehrhardt A, Xu H, Kay MA. Adenovirus transduction is required for the correction of diabetes using Pdx-1 or Neurogenin-3 in the liver. Mol. Ther. 2007;15(2):255–263."
+   },
+   {
+    "id": "C114",
+    "source": "Adult liver cell",
+    "target": "β cell",
+    "factors": [
+     "PDX1",
+     "NEUROD1",
+     "MAFA"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Nagasaki H, Katsumata T, Oishi H, Tai PH, Sekiguchi Y, Koshida R, et al. Generation of insulin-producing cells from the mouse liver using β cell-related gene transfer including Mafa and Mafb. PLoS One. 2014;9:e113022."
+   },
+   {
+    "id": "C115",
+    "source": "Adult liver cell",
+    "target": "β cell",
+    "factors": [
+     "PDX1",
+     "NEUROD1",
+     "MAFB"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Nagasaki H, Katsumata T, Oishi H, Tai PH, Sekiguchi Y, Koshida R, et al. Generation of insulin-producing cells from the mouse liver using β cell-related gene transfer including Mafa and Mafb. PLoS One. 2014;9:e113022."
+   },
+   {
+    "id": "C117",
+    "source": "Adult liver cell",
+    "target": "β cell",
+    "factors": [
+     "PDX1"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Meivar-Levy I, Sapir T, Berneman D, Weissbach T, Polak-Charcon S, Ravassard P, et al. Human liver cells expressing albumin and mesenchymal characteristics give rise to insulin-producing cells. J. Transplant. 2011;2011(1):252387."
+   },
+   {
+    "id": "C106",
+    "source": "Liver cell (hepatocyte)",
+    "target": "β cell",
+    "factors": [
+     "PDX1"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Ferber S, Halkin A, Cohen H, Ber I, Einav Y, Goldberg I, et al. Pancreatic and duodenal homeobox gene 1 induces expression of insulin genes in liver and ameliorates streptozotocin-induced hyperglycemia. Nat. Med. 2000;6:568–572."
+   },
+   {
+    "id": "C107",
+    "source": "Liver cell (hepatocyte)",
+    "target": "β cell",
+    "factors": [
+     "PDX1"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Ber I, Shternhall K, Perl S, Ohanuna Z, Goldberg I, Barshack I, et al. Functional, persistent, and extended liver to pancreas transdifferentiation. J. Biol. Chem. 2003;278:31950–31957."
+   },
+   {
+    "id": "C110",
+    "source": "Liver cell (hepatocyte)",
+    "target": "β cell",
+    "factors": [
+     "PDX1",
+     "PAX4",
+     "MAFA"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Berneman-Zeitouni D, Molakandov K, Elgart M, Mor E, Fornoni A, Domínguez MR, et al. The temporal and hierarchical control of transcription factors-induced liver to pancreas transdifferentiation. PLoS One. 2014;9(2):e87812."
+   },
+   {
+    "id": "C116",
+    "source": "Primary hepatocyte/BAML",
+    "target": "β cell",
+    "factors": [
+     "TGIF2"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Cerdá-Esteban N, Naumann H, Ruzittu S, Mah N, Pongrac IM, Cozzitorto C, et al. Stepwise reprogramming of liver cells to a pancreas progenitor state by the transcriptional regulator Tgif2. Nat. Commun. 2017;8(1):14127."
+   },
+   {
+    "id": "C121",
+    "source": "hepatocytes",
+    "target": "β cell",
+    "factors": [
+     "PDX1",
+     "NEUROG3",
+     "MAFA"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Lu J, Dong H, Lin L, Wang Q, Huang L, Tan J. miRNA-302 facilitates reprogramming of human adult hepatocytes into pancreatic islets-like cells in combination with a chemical defined media. Biochem. Biophys. Res. Commun. 2014;453(3):405–410."
+   }
+  ]
+ },
+ "P14": {
+  "name": "Exocrine_BetaCell",
+  "tf_union": [
+   "MAFA",
+   "NEUROG3",
+   "PDX1"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "C108",
+    "source": "Pancreatic exocrine cell",
+    "target": "β cell",
+    "factors": [
+     "NEUROG3",
+     "PDX1",
+     "MAFA"
+    ],
+    "origin": "Collaborator list",
+    "reference": "Zhou Q, Brown J, Kanarek A, Rajagopal J, Melton DA. In vivo reprogramming of adult pancreatic exocrine cells to β-cells. Nature. 2008;455:627–632."
+   }
+  ]
+ },
+ "P15": {
+  "name": "Fib_Melanocyte",
+  "tf_union": [
+   "MITF",
+   "PAX3",
+   "SOX10"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "L154",
+    "source": "Fibroblast",
+    "target": "Melanocyte",
+    "factors": [
+     "MITF",
+     "SOX10",
+     "PAX3"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Yang R, Zheng Y, Li L, Liu S, Burrows M, Wei Z, et al. Direct conversion of mouse and human fibroblasts to functional melanocytes by defined factors. Nat. Commun. 2014;5(1):5807."
+   }
+  ]
+ },
+ "P16": {
+  "name": "Fib_SchwannCell",
+  "tf_union": [
+   "EGR2",
+   "SOX10"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "L156",
+    "source": "Fibroblast",
+    "target": "Schwann cell",
+    "factors": [
+     "SOX10",
+     "EGR2"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Mazzara PG, Massimino L, Pellegatta M, Ronchi G, Ricca A, Iannielli A, et al. Two factor-based reprogramming of rodent and human fibroblasts into Schwann cells. Nat. Commun. 2017;8(1):14088."
+   }
+  ]
+ },
+ "P17": {
+  "name": "Fib_RenalEpithelial",
+  "tf_union": [
+   "EMX2",
+   "HNF1B",
+   "HNF4A",
+   "PAX8"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "L159",
+    "source": "Fibroblast",
+    "target": "Renal tubular epithelial cell",
+    "factors": [
+     "EMX2",
+     "HNF1B",
+     "HNF4A",
+     "PAX8"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Kaminski MM, Tosic J, Kresbach C, Engel H, Klockenbusch J, Müller AL, et al. Direct reprogramming of fibroblasts into renal tubular epithelial cells by defined transcription factors. Nat. Cell Biol. 2016;18(12):1269–1280."
+   }
+  ]
+ },
+ "P18": {
+  "name": "Fib_AT2",
+  "tf_union": [
+   "FOXA1",
+   "FOXA2",
+   "GATA6",
+   "NKX2-1"
+  ],
+  "n_protocols": 1,
+  "protocols": [
+   {
+    "id": "L157",
+    "source": "Fibroblast",
+    "target": "Type II pneumocyte",
+    "factors": [
+     "NKX2-1",
+     "FOXA1",
+     "FOXA2",
+     "GATA6"
+    ],
+    "origin": "Literature list (Claude)",
+    "reference": "Morita A, Ishii M, Asakura T, Yotsukura M, Hegab AE, Kusumoto T, et al. Direct reprogramming of mouse fibroblasts into self-renewable alveolar epithelial-like cells. npj Regen. Med. 2025;10(1):30."
+   }
+  ]
+ }
+}

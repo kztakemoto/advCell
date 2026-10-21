@@ -1,0 +1,23 @@
+# Environment for the scGPT searches. Cannot coexist with the Geneformer environment.
+# scgpt 0.2.4 -> torchtext 0.18.0 pins torch to 2.3.x.
+#   conda env create -f environment-scgpt.yml
+#   conda activate advcell-scgpt
+name: advcell-scgpt
+channels: [conda-forge]
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      # torch is the CUDA 12.1 build. Keep the combination with torchtext intact.
+      #   pip install torch==2.3.0 --index-url https://download.pytorch.org/whl/cu121
+      - torch==2.3.0
+      - torchtext==0.18.0
+      - scgpt==0.2.4
+      - datasets==2.21.0
+      - numpy==1.26.4
+      - scipy==1.15.3
+      - pandas==2.3.3
+      - scikit-learn==1.7.2
+      - scanpy==1.11.5
+      - anndata==0.11.4
+      - torchmetrics==1.9.0

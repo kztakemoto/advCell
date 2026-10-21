@@ -1,0 +1,4 @@
+# Re-aggregating from the result JSONs needs nothing beyond the standard library.
+# The packages below are for drawing the figures (figures/figures.py).
+numpy>=1.26
+matplotlib>=3.7
